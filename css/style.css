@@ -21,3 +21,44 @@ body {
 h1 {
   font-family: var(--font-display);
 }
+
+.header {
+  background: url("../images/bg.jpg");
+  background-size: cover;
+  height: 20rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.hero {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 10px;
+}
+
+.hero__img {
+  height: clamp(80px, 20vw, 100px);
+  margin-right: 1rem;
+}
+
+.hero__title {
+  color: white;
+  font-size: clamp(20px, 10vw, 60px);
+}
+
+.hero + p {
+  position: absolute;
+  bottom: 0px;
+  right: 5px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: clamp(12px, 3vw, 16px);
+}
+
+.hero + p > a:link,
+.hero + p > a:visited {
+  color: rgba(255, 255, 255, 0.8);
+}
