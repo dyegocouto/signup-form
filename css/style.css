@@ -51,7 +51,7 @@ body {
 
 .hero__logo {
   height: clamp(5rem, 20vw, 6.25rem);
-  margin-right: 1rem;
+  margin-right: 2rem;
 }
 
 .hero__title {
@@ -187,11 +187,11 @@ body {
   }
 
   .hero__logo {
-    height: clamp(50px, 20vw, 70px);
+    height: clamp(50px, 12vw, 140px);
   }
 
   .hero__title {
-    font-size: clamp(15px, 10vw, 40px);
+    font-size: clamp(15px, 8vw, 60px);
   }
 
   .main {
