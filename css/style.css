@@ -141,6 +141,7 @@ body {
 }
 
 .signup__btn {
+  cursor: pointer;
   padding: 0.8rem 1.3rem;
   font-size: 1.3rem;
   background-color: #70caff;
@@ -149,6 +150,15 @@ body {
   color: var(--bg-alt);
   letter-spacing: -1px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.253);
+}
+
+.signup__btn:hover {
+  background-color: #1aabff;
+}
+
+.signup__btn:active {
+  transform: translateY(2px);
+  box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.153);
 }
 
 .signup__para {
