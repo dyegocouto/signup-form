@@ -96,6 +96,7 @@ body {
 .form-wrapper {
   background-color: var(--bg-alt);
   padding-top: 1.25rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .form__header {
@@ -132,7 +133,6 @@ body {
 }
 
 .signup__actions {
-  background-color: var(--bg-main);
   height: 9.375rem;
   display: flex;
   flex-direction: column;
