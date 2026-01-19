@@ -132,6 +132,15 @@ body {
   margin-bottom: 1.875rem;
 }
 
+.form__field:has(input[required]) > label:after {
+  content: " *";
+  color: #e60000;
+}
+
+.form__field > input:user-invalid {
+  border: 2px solid #e60000;
+}
+
 .signup__actions {
   height: 9.375rem;
   display: flex;
