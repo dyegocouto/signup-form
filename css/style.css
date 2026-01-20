@@ -114,6 +114,10 @@ body {
   gap: 0.625rem;
 }
 
+.form__field {
+  position: relative;
+}
+
 .form__field > label,
 .form__field > input {
   display: block;
@@ -139,6 +143,21 @@ body {
 
 .form__field > input:user-invalid {
   border: 2px solid #e60000;
+}
+
+.form__error {
+  position: absolute;
+  bottom: 0px;
+  color: #e60000;
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.form__error.show {
+  display: block;
 }
 
 .signup__actions {

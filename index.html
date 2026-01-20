@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="css/modern-normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/pass-validation.js"></script>
   </head>
   <body>
     <header class="site-header">
@@ -59,11 +60,19 @@
             </div>
             <div class="form__field">
               <label class="uppercase" for="password">Password</label>
-              <input type="password" name="password" id="password" required />
+              <input
+                type="password"
+                name="password"
+                id="password"
+                required
+                minlength="8"
+              />
+              <small class="form__error">Must be at least 8 characters.</small>
             </div>
             <div class="form__field">
               <label class="uppercase" for="passwordC">Confirm Password</label>
               <input type="password" name="passwordC" id="passwordC" required />
+              <small class="form__error">Password does not match</small>
             </div>
           </form>
         </div>
