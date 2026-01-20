@@ -240,6 +240,10 @@ body {
     justify-content: center;
   }
 
+  .signup__intro {
+    padding-left: 40px;
+  }
+
   .signup__intro p:first-child,
   .signup__intro p:last-child {
     text-align: left;
@@ -256,5 +260,11 @@ body {
 
   .form {
     justify-content: flex-start;
+  }
+
+  .signup__actions {
+    justify-self: flex-start;
+    align-items: flex-start;
+    padding-left: 40px;
   }
 }
